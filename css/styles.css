@@ -179,7 +179,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
 }
 .our-team-text {
     text-align: center;
@@ -590,6 +589,7 @@ body {
             position: relative;
             display: flex;
             flex-direction: column;
+            height: 100%;
             width: 320px;
             background: #FFF;
             padding-top: 72px;
@@ -619,7 +619,7 @@ body {
             display: inline-flex;
             flex-direction: column;
             align-items: flex-start;
-            margin-bottom: 168px;
+            margin-bottom: auto;
         }
                 
     .mobile-menu {
@@ -630,6 +630,7 @@ body {
                 
     .mobile-menu-link {
             font-size: 36px;
+            font-weight: 700;
             line-height: 1.11;
             letter-spacing: 0.02em;
             text-transform: capitalize;
@@ -663,6 +664,7 @@ body {
     .mobile-menu-adress-link {
             display: block;
             font-size: 20px;
+            font-weight: 500;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #434455;
@@ -723,6 +725,7 @@ body {
         flex-direction: column;
         gap: 72px;
     }
+        
     .our-portfolio-list {
         display: flex;
         flex-direction: column;
@@ -927,10 +930,10 @@ body {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
     .footer-logo-social {
+        max-width: 584px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 108px;
         row-gap: 72px;
     }
     .footer-text {
@@ -1012,6 +1015,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 .advantages-title {
     text-transform: none;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .benefits {
     padding-top: 120px;
